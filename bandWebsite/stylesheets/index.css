@@ -5,6 +5,7 @@
     font-family: Verdana,sans-serif;
     letter-spacing: 4px;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 /* Navbar styling */
@@ -53,7 +54,7 @@ nav {
     position: absolute;
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
-    left: 50%;
+    left: 45%;
     top: 50%;
     color: white;
 }
@@ -64,12 +65,16 @@ nav {
 
 .logoSpan {
     font-family: 'Leckerli One', cursive;
-}
-
-.logoSpan {
     font-size: 40px;
     background: black;
     opacity: .85;
+}
+
+.tonesSpan {
+    color: black;
+    background-color: white;
+    opacity: .85;
+    border-radius: 2%;
 }
 
 .navLinksWrapper {
@@ -103,6 +108,7 @@ nav ul li a {
     width: 80%;
     height: auto;
     margin: auto;
+    margin-top: 80px;
     text-align: center;
     overflow: hidden;
 
@@ -241,4 +247,21 @@ main {
     color: white;
     align-items: center;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .bandNameLogo {
+
+        left: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .bandNameLogo {
+
+        left: 15%;
+    }
+    
 }
