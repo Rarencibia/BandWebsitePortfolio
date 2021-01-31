@@ -83,6 +83,7 @@ nav {
     justify-content: flex-end;
     align-items: center;
     text-align: center;
+    margin-right: 50px;
     
 }
 
@@ -239,6 +240,11 @@ main {
     background: lightgray;
 }
 
+.backToTop {
+    margin-top: 10px;
+    text-align: center;
+}
+
 /* footer */
 .footWrapper {
     display: flex;
@@ -253,7 +259,7 @@ main {
 @media screen and (max-width: 600px) {
     .bandNameLogo {
 
-        left: 20%;
+        left: 2%;
     }
     
 }
